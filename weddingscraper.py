@@ -73,7 +73,7 @@ for name in guest_names:
 # Save to Excel using pandas
 out_df = pd.DataFrame(all_results)
 
-excel_file_name="lists/GoodOleBoy_wedding_list.xlsx"
+excel_file_name="lists/choosenamehere.xlsx"
 # Write DataFrame to Excel file
 out_df.to_excel(excel_file_name, index=False)
 
