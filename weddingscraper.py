@@ -56,7 +56,6 @@ def find_invitation(full_name, url, searchLength):
 
 # List of guest names to query, change this based on the wedding
 guest_names = []
-#guest_names = ["Anna Conforti", "Avery Millspaugh", "China Tinnen", "Dorothy Smith", "Eli Granberry", "Ellie Bunnell", "Gabby Woodie", "Josh Davis", "Kate Noel", "Kenzie Murray", "McKenzie Strasko", "Morgan Elarton", "Riley Barber", "Sam Vinson", "Jordan Griffin", "Brian Richards"]
 
 #or use guestnames from a CSV using one's personal contacts
 df = pd.read_excel("SamVinsoniOSContacts05242025.xlsx")
